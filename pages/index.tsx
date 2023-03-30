@@ -16,12 +16,6 @@ const Home: NextPage = () => {
           role="button"
           onClick={() => router.push(`/mint`)}
         >
-          {/* Mint a new NFT */}
-          <Image src="/icons/drop.webp" alt="drop" width={64} height={64} />
-          <h2 className={styles.selectBoxTitle}>Mint a new NFT</h2>
-          <p className={styles.selectBoxDescription}>
-            Use the NFT Drop Contract to claim an NFT from the collection.
-          </p>
         </div>
 
         <div
