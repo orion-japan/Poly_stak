@@ -11,12 +11,7 @@ const Home: NextPage = () => {
       {/* Top Section */}
       <h1 className={styles.h1}>SUN.NFT Deploy - Staking Contract</h1>
       <div className={styles.nftBoxGrid}>
-        <div
-          className={styles.optionSelectBox}
-          role="button"
-          onClick={() => router.push(`/mint`)}
-        >
-        </div>
+       
 
         <div
           className={styles.optionSelectBox}
